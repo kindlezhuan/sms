@@ -13,6 +13,8 @@ public class AskMsg extends BaseMsg {
 	  }
 	  public void setParams(AskParams params) {
 	    this.params = params;
+	  System.out.println("Bye");
 	  }
+	  
 	}
 	
