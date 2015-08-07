@@ -2,8 +2,8 @@ package com.hh.sms.info;
 
 import java.io.Serializable;
 
-	//ÇëÇóÀàÐÍ²ÎÊý
-	//±ØÐëÊµÏÖÐòÁÐ»¯½Ó¿Ú
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í²ï¿½ï¿½ï¿½
+	//ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½Ó¿ï¿½
 	public class AskParams implements Serializable {
 	  private static final long serialVersionUID = 1L;
 	  private String auth;
@@ -13,4 +13,8 @@ import java.io.Serializable;
 	  public void setAuth(String auth) {
 	    this.auth = auth;
 	  }
+	  private void sayWorld() {
+		// TODO Auto-generated method stub
+		  System.out.println("World");
+	}
 	}
