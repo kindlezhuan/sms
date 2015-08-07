@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Databases SYSTEM "databases.dtd">
+<Databases>
+	<Database name="MYSQL">
+		<driver_class>org.gjt.mm.mysql.Driver</driver_class>
+		<url>jdbc:mysql://127.0.0.1:3306/airline_3g_reservation_system</url>
+		<user_name>root</user_name>
+		<password>123456</password>
+	</Database>
+</Databases>
